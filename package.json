@@ -1,0 +1,41 @@
+{
+  "name": "strapi-provider-email-local-browser",
+  "version": "0.0.1",
+  "description": "mock provider for strapi email",
+  "homepage": "http://strapi.io",
+  "keywords": [
+    "email",
+    "strapi"
+  ],
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib",
+  "dependencies": {
+    "open": "^7.0.4",
+    "tmp": "^0.2.1"
+  },
+  "strapi": {
+    "isProvider": true
+  },
+  "author": {
+    "email": "perron.anthony@gmail.com",
+    "name": "Anthony Perron",
+    "url": "https://anthony-perron.fr/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:aperron/strapi-provider-email-local-browser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aperron/strapi-provider-email-local-browser/issues"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"no tests yet\""
+  }
+}
